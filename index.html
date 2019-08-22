@@ -59,6 +59,12 @@
             </a>
           </div>
         </div>
+        <div class="input-group mt-1 ltr hide-desktop w-50 text-center ml-auto mr-auto">
+          <div class="input-group-prepend">
+            <button class="btn btn-primary  text-small" type="button">ارسال</button>
+          </div>
+          <input type="text" class="form-control text-right text-small" placeholder="دنبال چی می گردی؟" aria-label="" aria-describedby="basic-addon1">
+        </div>
       </div>
     </nav>
     <div class="bg-sec text-center text-small text-white rtl">
@@ -70,11 +76,11 @@
     </div>
   </header>
   <main>
-
+    <!-- top banners -->
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 text-center small-banner-top hide-responsive">
+          <div class="col-md-3 text-center small-banner-top hide-mobile">
             <a href="#">
               <div class="rounded shadow-lg product-hover" id='first-banner'>
                 <h5 class="text-center text-white">لورم ایپسوم</h5>
@@ -88,7 +94,7 @@
               </div>
             </a>
           </div>
-          <div class="col-md-3 text-center small-banner-top hide-responsive">
+          <div class="col-md-3 text-center small-banner-top hide-mobile">
             <a href="#">
               <div class="rounded shadow-lg product-hover" id='second-banner'>
                 <h5 class="text-center text-white">لورم ایپسوم</h5>
@@ -134,7 +140,7 @@
         </div>
       </div>
     </section>
-
+    <!--offered products -->
     <section>
       <div class="container pt-5 p-4">
         <div class="col-md-12 countdown-bg rounded-top">
@@ -378,9 +384,6 @@
         </div>
       </div>
     </section>
-
-
-
     <!-- qucik menu -->
     <section class="hide-responsive">
       <div class="container-fluid">
@@ -388,60 +391,58 @@
           <div class="col-md-2">
             <a href="#">
               <div class="text-white shadow-lg product-hover">
-                <img class="img-fluid quick-menu"
-                  src="https://images7.alphacoders.com/412/412014.jpg"
-                  alt="Card image">
+                <img class="img-fluid quick-menu" src="https://images7.alphacoders.com/412/412014.jpg" alt="Card image">
               </div>
             </a>
           </div>
           <div class="col-md-2">
             <a href="#">
               <div class="text-white shadow-lg product-hover">
-                <img class="img-fluid quick-menu"
-                  src="https://images7.alphacoders.com/412/412014.jpg"
-                  alt="Card image">
+                <img class="img-fluid quick-menu" src="https://images7.alphacoders.com/412/412014.jpg" alt="Card image">
               </div>
             </a>
           </div>
           <div class="col-md-2">
             <a href="#">
               <div class="text-white shadow-lg product-hover">
-                <img class="img-fluid quick-menu"
-                  src="https://images7.alphacoders.com/412/412014.jpg"
-                  alt="Card image">
+                <img class="img-fluid quick-menu" src="https://images7.alphacoders.com/412/412014.jpg" alt="Card image">
               </div>
             </a>
           </div>
           <div class="col-md-2">
             <a href="#">
               <div class="text-white shadow-lg product-hover">
-                <img class="img-fluid quick-menu"
-                  src="https://images7.alphacoders.com/412/412014.jpg"
-                  alt="Card image">
+                <img class="img-fluid quick-menu" src="https://images7.alphacoders.com/412/412014.jpg" alt="Card image">
               </div>
             </a>
           </div>
           <div class="col-md-2">
             <a href="#">
               <div class="text-white shadow-lg product-hover">
-                <img class="img-fluid quick-menu"
-                  src="https://images7.alphacoders.com/412/412014.jpg"
-                  alt="Card image">
+                <img class="img-fluid quick-menu" src="https://images7.alphacoders.com/412/412014.jpg" alt="Card image">
               </div>
             </a>
           </div>
           <div class="col-md-2">
             <a href="#">
               <div class="text-white shadow-lg product-hover">
-                <img class="img-fluid quick-menu"
-                  src="https://images7.alphacoders.com/412/412014.jpg"
-                  alt="Card image">
+                <img class="img-fluid quick-menu" src="https://images7.alphacoders.com/412/412014.jpg" alt="Card image">
               </div>
             </a>
           </div>
         </div>
       </div>
 
+    </section>
+    <!-- mobile banners -->
+    <section class="hide-desktop">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <img class="rounded" height="100" width="100%" src="http://www.psnation.com/wp-content/uploads/2016/04/mirrors-edge-catalyst-banner.png" alt="">
+          </div>
+        </div>
+      </div>
     </section>
     <!-- new products -->
     <section>
@@ -667,8 +668,8 @@
         </div>
       </div>
     </section>
-    <!-- banners  -->
-    <section>
+    <!-- banners desktop -->
+    <section class="hide-between hide-mobile">
       <div class="container-fluid pt-4 pb-4">
         <div class="row">
           <div class="col-md-6">
@@ -691,7 +692,16 @@
           </div>
         </div>
       </div>
-
+    </section>
+    <!-- banners mobile -->
+    <section class="hide-desktop">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <img class="rounded" height="100" width="100%" src="http://www.psnation.com/wp-content/uploads/2016/04/mirrors-edge-catalyst-banner.png" alt="">
+          </div>
+        </div>
+      </div>
     </section>
     <!-- random category products -->
     <section>
@@ -917,13 +927,28 @@
         </div>
       </div>
     </section>
+    <!-- special features -->
+    <section>
+      <nav class="c-footer__feature-innerbox"><a data-snt-event="dkFooterClick" data-snt-params="{&quot;item&quot;:&quot;slogan-image&quot;,&quot;item_option&quot;:&quot;تحویل اکسپرس&quot;}" class="c-footer__badge" href="/faq/question/79/"
+          target="_blank">
+          <div class="c-footer__feature-item c-footer__feature-item--1">تحویل اکسپرس</div>
+        </a><a data-snt-event="dkFooterClick" data-snt-params="{&quot;item&quot;:&quot;slogan-image&quot;,&quot;item_option&quot;:&quot;پشتیبانی ۲۴ ساعته&quot;}" class="c-footer__badge" href="/page/contact-us/" target="_blank">
+          <div class="c-footer__feature-item c-footer__feature-item--3">پشتیبانی ۲۴ ساعته</div>
+        </a><a data-snt-event="dkFooterClick" data-snt-params="{&quot;item&quot;:&quot;slogan-image&quot;,&quot;item_option&quot;:&quot;پرداخت در محل&quot;}" class="c-footer__badge" href="/faq/question/81/" target="_blank">
+          <div class="c-footer__feature-item c-footer__feature-item--4">پرداخت در محل</div>
+        </a><a data-snt-event="dkFooterClick" data-snt-params="{&quot;item&quot;:&quot;slogan-image&quot;,&quot;item_option&quot;:&quot;۷ روز ضمانت بازگشت&quot;}" class="c-footer__badge" href="/faq/question/83/" target="_blank">
+          <div class="c-footer__feature-item c-footer__feature-item--5">۷ روز ضمانت بازگشت</div>
+        </a><a data-snt-event="dkFooterClick" data-snt-params="{&quot;item&quot;:&quot;slogan-image&quot;,&quot;item_option&quot;:&quot;ضمانت اصل‌بودن کالا&quot;}" class="c-footer__badge" href="/faq/question/82/" target="_blank">
+          <div class="c-footer__feature-item c-footer__feature-item--6">ضمانت اصل‌بودن کالا</div>
+        </a></nav>
+    </section>
     <!-- brands carousel -->
     <section>
       <div class="container pt-5 p-4">
         <div class="col-md-12 new-bg rounded-top">
           <div class="container">
             <div class="row">
-              <h6 class="pt-4 font-weight-bold">برندهای ویژه </h6>
+              <h6 class="pt-4 font-weight-bold">برترین انتشارات‌ها </h6>
               <a class="mr-auto" href="#">
                 <h6 class="pt-4 font-weight-bold text-dark"> مشاهده همه <i class="fas fa-angle-left pt-1"></i></h6>
               </a>
@@ -990,6 +1015,71 @@
 
   </main>
 
+  <footer>
+
+    <div class="container-fluid text-white text-medium bg-main">
+      <div class="row pt-3">
+        <div class="col-md-3 text-small">
+          <h5 class="text-right">راهنمای خرید از دیجی‌کالا</h5>
+          <hr>
+          <p class="text-right">نحوه ثبت سفارش</p>
+          <p class="text-right">رویه ارسال سفارش</p>
+          <p class="text-right">شیوه‌های پرداخت</p>
+        </div>
+        <div class="col-md-3 text-small">
+          <h5 class="text-right">خدمات مشتریان</h5>
+          <hr>
+          <p class="text-right">پاسخ به پرسش‌های متداول</p>
+          <p class="text-right">رویه‌های بازگرداندن کالا</p>
+          <p class="text-right">شرایط استفاده</p>
+          <p class="text-right">حریم خصوصی</p>
+          <p class="text-right">گزارش باگ</p>
+        </div>
+        <div class="col-md-3 text-small">
+          <h5 class="text-right">با دیجی‌کالا</h5>
+          <hr>
+          <p class="text-right">اتاق خبر دیجی‌کالا</p>
+          <p class="text-right">فروش در دیجی‌کالا</p>
+          <p class="text-right">فرصت‌های شغلی</p>
+          <p class="text-right">تماس با دیجی‌کالا</p>
+          <p class="text-right">درباره دیجی‌کالا</p>
+        </div>
+        <div class="col-md-3 text-right">
+          <h6 class="text-small">از تخفیف‌ها و جدیدترین‌های دیجی‌کالا باخبر شوید:</h6>
+          <div class="input-group mt-4 ltr">
+            <div class="input-group-prepend">
+              <button class="btn btn-primary  text-small" type="button">ارسال</button>
+            </div>
+            <input type="text" class="form-control text-right text-small" placeholder="آدرس ایمیل خود را وارد کنید" aria-label="" aria-describedby="basic-addon1">
+          </div>
+          <div class="pt-3">
+            <h6 class="text-small pb-2">دیجی‌کالا را در شبکه‌های اجتماعی دنبال کنید:</h6>
+            <div class="c-footer__social--instagram text-center">
+              <a class="text-white" href="https://www.instagram.com/digikalacom/">
+                <img width="25" src="https://www.digikala.com/static/files/0ae6d682.svg">
+                اینستاگرام دیجی‌کالا
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="row bg-sec">
+        <div class="col-md-6 pt-2 text-right">
+          <h5 class="h6">هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</h5>
+          <h6 class="text-white">
+            شماره تماس :
+۶۱۹۳۰۰۰۰ - ۰۲۱ | ۹۵۱۱۹۰۹۵ - ۰۲۱
+          </h6>
+
+        </div>
+        <div class="col-md-6 pt-2 text-left">
+<h6>namad etemado azin dastana</h6>
+        </div>
+      </div>
+    </div>
+  </footer>
+
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
@@ -1003,4 +1093,4 @@
   <!--load all styles -->
 </body>
 
-</htm
+</html>
