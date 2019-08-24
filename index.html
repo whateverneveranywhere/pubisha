@@ -26,7 +26,27 @@
         <img src="https://www.pubisha.com/assets/images/logo-w.png" width="167" height="40" class="d-inline-block align-top" alt="">
       </a>
       <div class="mr-auto pt-2">
-        <a href="#" class="pr-2"><i class="fas fa-user text-white"></i></a>
+        <a href="#" class="pr-2"><i class="fas fa-user text-white" data-toggle="modal" data-target="#exampleModalCenter"></i></a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close mr-auto ml-1 pt-4" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal-title pt-1" id="exampleModalLongTitle">ورود / ثبت نام</h5>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
         <a href="#"><i class="fas fa-shopping-cart text-white text-large hide-desktop-for-real"></i></a>
         <span class="badge badge-pill badge-danger hide-desktop-for-real">2</span>
         <a href="#"><i class="fas fa-shopping-cart text-white text-large hide-between" onclick="cartFunc()"></i></a>
