@@ -869,6 +869,8 @@ font-size: 10px;
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
 
+
+
 	.hide-between {
 
 display: none;
@@ -883,8 +885,24 @@ display: none;
 
  }
 
+ @media (min-width: 768px) {
+
+ 	.hide-desktop-for-real {
+
+ display: none;
+
+ 	}
+
+  }
+
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
+
+	.dropdown-menu {
+
+		text-align: center;
+
+	}
 
 	.c-product-box__discount-badge {
 
