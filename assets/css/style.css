@@ -640,7 +640,7 @@ transition: .3s;
 
 .dropdown-menu {
     left: -100px !important;
-		background-image: linear-gradient(to top, #051937, #331b4d, #67064e, #930039, #ab000d);
+		background-image: linear-gradient(to top, #ab000d, #83011b, #590b1c, #300e16, #000000);
 		transition: .3s;
 		font-size: inherit;
 }
@@ -654,7 +654,6 @@ transition: .3s;
 
 .dropdown-item:hover {
 
-	margin: 1px;
   border-radius: 60px;
 	transition: .3s;
 	background-color: #e53935;
@@ -716,7 +715,7 @@ transition: .3s;
 
 #carter {
 
-display: visible;
+display: none;
 
 }
 
@@ -769,10 +768,23 @@ transition: .3s;
 
 }
 
+.footer-text {
 
+font-size: smaller;
 
+}
 
+.footer-title {
 
+font-size: medium ;
+
+}
+
+.below-footer {
+
+    font-size: unset;
+
+}
 
 
 
