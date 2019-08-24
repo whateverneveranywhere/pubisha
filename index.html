@@ -25,7 +25,13 @@
       </a>
       <div class="mr-auto pt-2">
         <a href="#" class="pr-2"><i class="fas fa-user text-white"></i></a>
-        <a href="#"><i class="fas fa-shopping-cart text-white text-large"></i></a>
+        <a href="#"><i class="fas fa-shopping-cart text-white text-large" onclick="cartFunc()"></i></a>
+        <span class="badge badge-pill badge-danger">2</span>
+
+
+
+
+
 
       </div>
 
@@ -37,109 +43,109 @@
       <div class="collapse navbar-collapse text-small" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto center-responsive mr-2">
           <li class="nav-item dropdown">
-                 <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  بازی و ابزار آموزشی
-                 </a>
-                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                   <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
-                   <div class="dropdown-divider bg-sec"></div>
-                   <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
-                   <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
-                   <a class="dropdown-item text-right text-white" href="#">تراش</a>
-                   <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
-                   <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
-                 </div>
-               </li>
-               <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      لوح فشرده
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
-                        <div class="dropdown-divider bg-sec"></div>
-                        <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
-                        <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
-                        <a class="dropdown-item text-right text-white" href="#">تراش</a>
-                        <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
-                        <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
-                      </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                             کتاب دانشگاهی
-                           </a>
-                           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                             <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
-                             <div class="dropdown-divider bg-sec"></div>
-                             <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
-                             <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
-                             <a class="dropdown-item text-right text-white" href="#">تراش</a>
-                             <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
-                             <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
-                           </div>
-                         </li>
-                         <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                کتاب کمک درسی
-                                </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                  <div class="wrap-it-all  flex-on-hover">
-                                    <div class="">
-                                      <a class="dropdown-item text-center text-white" href="#">دبستان</a>
-                                      <div class="dropdown-divider bg-sec"></div>
-                                      <a class="dropdown-item text-right text-white" href="#">اول دبستان</a>
-                                      <a class="dropdown-item text-right text-white" href="#">دوم دبستان</a>
-                                      <a class="dropdown-item text-right text-white" href="#">سوم دبستان</a>
-                                      <a class="dropdown-item text-right text-white" href="#">چهارم دبستان</a>
-                                      <a class="dropdown-item text-right text-white" href="#">پنجم دبستان</a>
-                                      <a class="dropdown-item text-right text-white" href="#">ششم دبستان</a>
-                                      <div class="dropdown-divider bg-sec"></div>
-                                    </div>
-  <div class="">
-    <a class="dropdown-item text-center text-white" href="#">متوسطه اول</a>
-    <div class="dropdown-divider bg-sec"></div>
-    <a class="dropdown-item text-right text-white" href="#">هفتم</a>
-    <a class="dropdown-item text-right text-white" href="#">هشتم</a>
-    <a class="dropdown-item text-right text-white" href="#">نهم</a>
-    <div class="dropdown-divider bg-sec"></div>
-  </div>
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              بازی و ابزار آموزشی
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
+              <div class="dropdown-divider bg-sec"></div>
+              <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
+              <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
+              <a class="dropdown-item text-right text-white" href="#">تراش</a>
+              <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
+              <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              لوح فشرده
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
+              <div class="dropdown-divider bg-sec"></div>
+              <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
+              <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
+              <a class="dropdown-item text-right text-white" href="#">تراش</a>
+              <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
+              <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              کتاب دانشگاهی
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
+              <div class="dropdown-divider bg-sec"></div>
+              <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
+              <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
+              <a class="dropdown-item text-right text-white" href="#">تراش</a>
+              <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
+              <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              کتاب کمک درسی
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <div class="wrap-it-all  flex-on-hover">
+                <div class="">
+                  <a class="dropdown-item text-center text-white" href="#">دبستان</a>
+                  <div class="dropdown-divider bg-sec"></div>
+                  <a class="dropdown-item text-right text-white" href="#">اول دبستان</a>
+                  <a class="dropdown-item text-right text-white" href="#">دوم دبستان</a>
+                  <a class="dropdown-item text-right text-white" href="#">سوم دبستان</a>
+                  <a class="dropdown-item text-right text-white" href="#">چهارم دبستان</a>
+                  <a class="dropdown-item text-right text-white" href="#">پنجم دبستان</a>
+                  <a class="dropdown-item text-right text-white" href="#">ششم دبستان</a>
+                  <div class="dropdown-divider bg-sec"></div>
+                </div>
+                <div class="">
+                  <a class="dropdown-item text-center text-white" href="#">متوسطه اول</a>
+                  <div class="dropdown-divider bg-sec"></div>
+                  <a class="dropdown-item text-right text-white" href="#">هفتم</a>
+                  <a class="dropdown-item text-right text-white" href="#">هشتم</a>
+                  <a class="dropdown-item text-right text-white" href="#">نهم</a>
+                  <div class="dropdown-divider bg-sec"></div>
+                </div>
 
 
-  <div class="">
-    <a class="dropdown-item text-center text-white" href="#">متوسطه دوم</a>
-    <div class="dropdown-divider bg-sec"></div>
-    <a class="dropdown-item text-right text-white" href="#">دهم تجربی</a>
-    <a class="dropdown-item text-right text-white" href="#">دهم ریاضی</a>
-    <a class="dropdown-item text-right text-white" href="#">دهم انسانی</a>
-    <a class="dropdown-item text-right text-white" href="#">یازدهم تجربی</a>
-    <a class="dropdown-item text-right text-white" href="#">یازدهم ریاضی</a>
-    <a class="dropdown-item text-right text-white" href="#">یازدهم انسانی</a>
-    <a class="dropdown-item text-right text-white" href="#">دوازدهم تجربی</a>
-    <a class="dropdown-item text-right text-white" href="#">دوازدهم تجربی</a>
-    <a class="dropdown-item text-right text-white" href="#">دوازدهم انسانی</a>
-  </div>
-                                  </div>
+                <div class="">
+                  <a class="dropdown-item text-center text-white" href="#">متوسطه دوم</a>
+                  <div class="dropdown-divider bg-sec"></div>
+                  <a class="dropdown-item text-right text-white" href="#">دهم تجربی</a>
+                  <a class="dropdown-item text-right text-white" href="#">دهم ریاضی</a>
+                  <a class="dropdown-item text-right text-white" href="#">دهم انسانی</a>
+                  <a class="dropdown-item text-right text-white" href="#">یازدهم تجربی</a>
+                  <a class="dropdown-item text-right text-white" href="#">یازدهم ریاضی</a>
+                  <a class="dropdown-item text-right text-white" href="#">یازدهم انسانی</a>
+                  <a class="dropdown-item text-right text-white" href="#">دوازدهم تجربی</a>
+                  <a class="dropdown-item text-right text-white" href="#">دوازدهم تجربی</a>
+                  <a class="dropdown-item text-right text-white" href="#">دوازدهم انسانی</a>
+                </div>
+              </div>
 
 
 
 
 
-                                </div>
-                              </li>
-                              <li class="nav-item dropdown">
-                                     <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       لوازم التحریر
-                                     </a>
-                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                       <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
-                                       <div class="dropdown-divider bg-sec"></div>
-                                       <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
-                                       <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
-                                       <a class="dropdown-item text-right text-white" href="#">تراش</a>
-                                       <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
-                                       <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
-                                     </div>
-                                   </li>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              لوازم التحریر
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item text-center text-white" href="#">نوشت افزار</a>
+              <div class="dropdown-divider bg-sec"></div>
+              <a class="dropdown-item text-right text-white" href="#">خودکار و روان نویس</a>
+              <a class="dropdown-item text-right text-white" href="#">ماژیک</a>
+              <a class="dropdown-item text-right text-white" href="#">تراش</a>
+              <a class="dropdown-item text-right text-white" href="#">پاک کن و غلط گیر</a>
+              <a class="dropdown-item text-right text-white" href="#">مداد نوکی و نوک</a>
+            </div>
+          </li>
         </ul>
         <div class="ltr hide-responsive">
           <div class="search-box">
@@ -165,6 +171,52 @@
       </p>
     </div>
   </header>
+  <div class="ltr" id="carter">
+    <div class="shopping-cart-container pt-3">
+      <div class="container-fluid">
+        <div class="row text-small">
+          <div class="col-md-12">
+            <div class="c-navi-list__basket-total">
+              <span class="text-dark">مبلغ کل خرید:</span>
+              <span> ۱۲۰,۰۰۰</span>
+              <span> تومان</span>
+            </div>
+            <a class="c-navi-list__basket-link" href="#">
+              <span>مشاهده سبد خرید</span>
+            </a>
+          </div>
+        </div>
+
+        <hr>
+
+
+        <div class="row product-cart-pop">
+          <div class="col-md-8 hover-cart-text">
+            <p>کرم ضد آفتاب الارو سری Foundation Effect مدل Prote Prote Prote Prote</p>
+            <span class="c-price text-danger pt-1 text-center">
+              <span class="c-price__value js-price-value pt-1">
+                ۱۰۸,۹۰۰
+                <span class="c-price__currency">تومان</span>
+              </span>
+              <p class="d-inline-block text-small pl-5">تعداد: 0</p>
+
+            </span>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/81VnTWWiJcL._SX342_.jpg" width="100%" class="rounded mx-auto d-block" alt="...">
+            <a href="#"><i class="far fa-times-circle mt-2"></i></a>
+          </div>
+
+        </div>
+      </div>
+      <div class="text-center p-2">
+        <button type="button" class="btn btn-outline-primary btn-block">ثبت سفارش و ارسال</button>
+
+      </div>
+    </div>
+  </div>
+
+
   <main>
     <!-- top banners -->
     <section>
@@ -1159,12 +1211,12 @@
           <h5 class="h6">هفت روز هفته ، ۲۴ ساعت شبانه‌روز پاسخگوی شما هستیم</h5>
           <h6 class="text-white">
             شماره تماس :
-۶۱۹۳۰۰۰۰ - ۰۲۱ | ۹۵۱۱۹۰۹۵ - ۰۲۱
+            ۶۱۹۳۰۰۰۰ - ۰۲۱ | ۹۵۱۱۹۰۹۵ - ۰۲۱
           </h6>
 
         </div>
         <div class="col-md-6 pt-2 text-left">
-<h6>namad etemado azin dastana</h6>
+          <h6>namad etemado azin dastana</h6>
         </div>
       </div>
     </div>
