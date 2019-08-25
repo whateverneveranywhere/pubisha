@@ -8,7 +8,7 @@ body {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: white;
+  color: black;
   opacity: 1; /* Firefox */
 }
 
@@ -247,13 +247,14 @@ transition: 0.3s;
     top: 50%;
     left: 50%;
     transform: translate(-50%,0);
-    background-color: #ac2926;
+    background-color: white;
     height: 40px;
     border-radius: 40px;
     padding: 10px;
 }
 .search-box:hover > .search-txt
 {
+	color:black;
     width: 240px;
     padding: 0 6px;
 }
@@ -507,7 +508,7 @@ padding: 30px;
 .countdown-bg {
 
 	background-image:
-	linear-gradient(to bottom, #e53935b5,#ffffff ),
+	linear-gradient(to bottom, #ab000d94,#000000 ),
 	url('https://cdn2.vectorstock.com/i/1000x1000/06/86/percent-pie-chart-pattern-seamless-vector-23230686.jpg');
 	background-size: cover;
 	background-repeat:no-repeat;
@@ -518,8 +519,8 @@ padding: 30px;
 .new-bg {
 
 	background-image:
-	linear-gradient(to bottom, #2422366b,#ffffff ),
-	url('https://res.cloudinary.com/tempest/image/upload/c_limit%2Ccs_srgb%2Cq_100%2Cw_2000/MTU2OTc4NTM2NDc1Nzk2Njc5.jpg');
+	linear-gradient(to bottom, #ab000d94,#000000),
+	url('https://ih0.redbubble.net/image.741198650.5191/flat,550x550,075,f.u1.jpg');
 	background-size: cover;
 	background-repeat:no-repeat;
 	background-position:center;
@@ -615,11 +616,6 @@ transition: .3s;
 .c-footer__badge {
     display: inline-block;
     width: 16.3%;
-}
-
-.c-footer__feature-item--1 {
-    background: url(../files/8f570b58.svg) 43% 8px no-repeat;
-    background-size: auto 58px;
 }
 
 .c-footer__social--instagram {
@@ -770,7 +766,22 @@ transition: .3s;
 
 .footer-text {
 
-font-size: smaller;
+    background-image: linear-gradient(to bottom, #d52a2cd1,#000000 ),
+		 url('https://ih0.redbubble.net/image.741198650.5191/flat,550x550,075,f.u1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+		font-size: smaller;
+
+}
+
+.navbar {
+
+	background-image: linear-gradient(to bottom, #d52a2cd1,#000000 ),
+	 url('https://ih0.redbubble.net/image.741198650.5191/flat,550x550,075,f.u1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 
 }
 
@@ -1140,7 +1151,11 @@ fieldset {
   outline: none;
 }
 
-
+.vl {
+  border-left: 1px solid red;
+  height: auto;
+  position: relative;
+}
 
 
 
@@ -1220,6 +1235,12 @@ fieldset {
 /* responsive */
 
 @media (max-width: 576px) {
+
+.navbar-nav {
+
+margin-right: auto !important;
+
+	}
 
 	.hide-mobile {
 
