@@ -354,7 +354,7 @@ background-size: cover;
 
 color:white;
 background-image:
-linear-gradient(to bottom, #0000001f, #ac2926b5 ),
+linear-gradient(to bottom, #ab000d, #000000a6  ),
 url('https://images.wallpaperscraft.com/image/book_coffee_bed_shadow_117507_168x300.jpg');
 padding-top: 100px;
 width: 100%;
@@ -368,7 +368,7 @@ background-position:center;
 
 color:white;
 background-image:
-linear-gradient(to bottom, #0000001f,#ac2926b5 ),
+linear-gradient(to bottom, #ab000d, #000000a6  ),
 url('https://images.wallpaperscraft.com/image/book_text_motivation_coffee_hand_119514_168x300.jpg');
 padding-top: 100px;
 width: 100%;
@@ -508,7 +508,7 @@ padding: 30px;
 .countdown-bg {
 
 	background-image:
-	linear-gradient(to bottom, #ab000d94,#000000 ),
+	linear-gradient(to bottom, #9f000cd4,#000000 ),
 	url('https://cdn2.vectorstock.com/i/1000x1000/06/86/percent-pie-chart-pattern-seamless-vector-23230686.jpg');
 	background-size: cover;
 	background-repeat:no-repeat;
@@ -793,7 +793,7 @@ font-size: medium ;
 
 .below-footer {
 
-    font-size: unset;
+    font-size: smaller;
 
 }
 
@@ -1153,27 +1153,6 @@ fieldset {
 }
 .button:focus {
   outline: none;
-}
-
-.vl {
-  border-left: 1px solid red;
-  height: auto;
-  position: relative;
-}
-
-.dropdown-item {
-
-	width: min-content;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-
-.dropdown-menu {
-
-min-width: 200px;
-
 }
 
 .navbar-toggler {
@@ -1610,6 +1589,79 @@ color:white;
   font-weight: bold;
 }
 
+.special-features {
+	    box-shadow: 0px 10px 15px black;
+	    margin: 0px 20px 0px 20px;
+    padding: 35px;
+	background: white;
+	background-image: linear-gradient(to bottom, #d52a2cd1,#000000 ),
+	 url('https://ih0.redbubble.net/image.741198650.5191/flat,550x550,075,f.u1.jpg');
+
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ab000d;
+    border-color: #ffffff;
+}
+
+
+.normal-height {
+
+line-height: normal;
+
+}
+
+.icon-container {
+			margin: -5px 0px -5px 5px;
+	    background: black;
+	    width: 25px !important;
+	    height: 25px;
+	    padding: 5px;
+	    border-radius: 60px;
+	    box-shadow: 0px 0px 5px white;
+
+}
+
+.namad-size {
+
+width: 200px !important;
+height: 100px !important;
+
+}
+
+.shadow-box {
+
+    box-shadow: 1px 5px 15px black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1688,6 +1740,19 @@ color:white;
 /* responsive */
 
 @media (max-width: 576px) {
+
+	.dropdown-menu {
+
+font-size: 8px;
+
+	}
+
+	.super-small {
+
+		padding-right: 4px;
+    padding-left: 4px;
+
+	}
 
 .navbar-nav {
 

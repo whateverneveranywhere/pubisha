@@ -53,10 +53,7 @@ let countDown = new Date('Sep 30, 2019 00:00:00').getTime(),
     }, second)
 
 
-
-
-
-
+// handle clickable cart
 
 
     function cartFunc() {
@@ -67,3 +64,11 @@ let countDown = new Date('Sep 30, 2019 00:00:00').getTime(),
         x.style.display = "none";
       }
     }
+
+    // tilt
+
+
+    const tilt = $('.js-tilt').tilt();
+tilt.on('change', callback);  // parameters: event, transforms
+tilt.on('tilt.mouseLeave', callback); // parameters: event
+tilt.on('tilt.mouseEnter', callback); // parameters: event
