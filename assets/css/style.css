@@ -1856,6 +1856,71 @@ background-color: #ff000012;
 
 
 
+/* The grid: Four equal columns that floats next to each other */
+.img-column {
+	transition: .3s;
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.img-column img {
+	transition: .3s;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.img-column img:hover {
+	transition: .3s;
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.img-row:after {
+	transition: .3s;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.img-container {
+	transition: .3s;
+  position: relative;
+  display: visible;
+}
+
+.make-width-okay {
+
+width: 95%;
+
+}
+
+.btn-primary:hover {
+
+background-color: black !important;
+
+}
+
+.btn-primary:focus {
+
+background-color: black !important;
+
+}
+
+.btn-primary:active {
+
+background-color: black !important;
+
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    background-color: black !important;
+    border-color: black !important;
+}
+
+
 
 
 
@@ -1938,6 +2003,26 @@ margin-right: auto !important;
 display: none;
 
 	}
+
+
+	.bread-nav {
+
+
+		    overflow: auto;
+
+
+	}
+
+	.bread-flow {
+
+
+		    width: max-content;
+		    overflow: scroll;
+
+
+	}
+
+
 
 .small-text-responsive {
 

@@ -72,3 +72,13 @@ let countDown = new Date('Sep 30, 2019 00:00:00').getTime(),
 tilt.on('change', callback);  // parameters: event, transforms
 tilt.on('tilt.mouseLeave', callback); // parameters: event
 tilt.on('tilt.mouseEnter', callback); // parameters: event
+
+// gallery function
+
+function gallery(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
