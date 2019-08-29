@@ -1924,16 +1924,31 @@ background-color: black !important;
   list-style-type: none;
 }
 
+.m-30 {
+
+margin: 30px;
+
+}
+
+.comment-box {
+
+    border-radius: 40px 0px 40px 40px;
+
+}
 
 
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
 
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
 
-
-
-
-
-
-
+.notyet {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
 
 
 
