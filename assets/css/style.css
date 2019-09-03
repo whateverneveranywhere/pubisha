@@ -1950,15 +1950,39 @@ margin: 30px;
     filter: grayscale(100%);
 }
 
+.btn-link {
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+}
 
+.btn-link:hover {
 
+    text-decoration: none;
+}
 
+.btn-link:active {
+		color:#aa000d;
+    text-decoration: none;
+}
 
+.btn-link:focus {
+	color:#aa000d;
+    text-decoration: none;
+}
 
+.beautify-faq {
 
+	border-radius: 60px !important;
+	margin: 5px !important;
 
+}
 
+.borderless {
 
+    border: none;
+
+}
 
 
 
